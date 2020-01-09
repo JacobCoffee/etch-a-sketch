@@ -1,4 +1,5 @@
-# Etch-A-Sketch #### *Digital Edition*
+# Etch-A-Sketch 
+#### *Digital Edition*
 
 ## Goals
 - Beautiful UI
