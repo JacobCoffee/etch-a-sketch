@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+}
+
+  html {
+    min-height:100%;
+    background: #1D4350;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #A43931, #1D4350) center center no-repeat;  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(-30deg, #A43931, #1D4350 ) center center no-repeat; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+    white-space: nowrap;
+    margin: 0 auto;
+}
+
+@media (max-width: 26.25em) {
+    h1 {
+        font-size: 1.875em;
+        transition: 0.3s;
+    }
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+
+.controls {
+    padding: 10px;
+}
+
+button {
+    background: #319ca4;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 4px 4px 5px rgba(59, 59, 59, 0.664);
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+button:hover {
+    background: rgb(231, 107, 107);
+    transition: 0.3s;
+}
+
+button:focus {
+    outline: 0;
+}
+
+button::-moz-focus-inner {
+    border: 0;
+}
+
+.break {
+    flex-basis: 100%;
+    height: 0;
+}
+
+.colors {
+    padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    flex:0.2 1 auto;
+}
+
+.color {
+    padding: 5px;
+    border-radius: 5px;
+    border: 3px solid transparent;
+    box-shadow: 4px 4px 5px rgba(59, 59, 59, 0.664);
+    width: 1em;
+    height: 1em;
+}
+
+.current {
+    background: grey;
+}
+
+.red {
+    background: red;
+}
+
+.yellow {
+    background: yellow;
+}
+
+.blue {
+    background: blue;
+}
+
+.green {
+    background: green
+}
+
+.black {
+    background: black
+}
+
+.white {
+    background: white;
+}
+.sketcher {
+    padding-top: 60vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    background: white;
+    border: 30px solid darkred;
+    border-radius: 16px;
+}
+
+.sketcher > div {
+    box-sizing: border-box;
+    height: 100px;
+    width: 10px;
+    border: 1px solid lightgray;
+    flex: 1 10px;
+  }
