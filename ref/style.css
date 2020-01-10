@@ -52,7 +52,12 @@ button {
 }
 
 button:hover {
-    background: rgb(231, 107, 107);
+    background: #e76b6b;
+    transition: 0.3s;
+}
+
+button.pastel:hover{
+    background: #8ac6d1;
     transition: 0.3s;
 }
 
@@ -123,7 +128,7 @@ button::-moz-focus-inner {
     border-radius: 16px;
 }
 
-.sketcher > div {
+.sketcher div {
     height: 30px;
     width: 30px;
     border: 1px solid lightgray;
