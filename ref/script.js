@@ -174,6 +174,7 @@ let hover = color => {
     });
 
 }
+
 /* #endregion Etch A Sketch Functions */
 
 /* #region Color Generators */
