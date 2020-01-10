@@ -78,8 +78,6 @@ shakeBtn.onclick = () => {
     }, 1500);
 }
 
-currentSwatch.onClick 
-
 redSwatch.onclick = () => {
     console.log("Basic button clicked!");
     hover("red");
@@ -186,7 +184,6 @@ let getRandomColor = () => {
     }
     return color;
 }
-
 
 let getPastelColor = () => {
     return "hsla(" + ~~(360 * Math.random()) + "," +
